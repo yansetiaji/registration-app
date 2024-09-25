@@ -1,7 +1,7 @@
 pipeline {
   agent { label "main"}
   tools {
-    jdk "Java21"
+    jdk "Java17"
     maven "Maven3"
   }
 
